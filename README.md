@@ -1,5 +1,5 @@
-# auto-image-cutter
-A matlab program to cut text columns from image.
+# Auto Image Cutter
+A matlab program to cut text in columns from image.
 
 ## Example
 
@@ -7,7 +7,7 @@ There is a simple example to show the function of this program.
 
 ### Original Image
 
-Image from: Zhejiang University Advanced Honor Class of Engineering Education Entrance Practice 2015, Module 2, Section 1, Problem B.
+Image from: Zhejiang University Advanced Honor Class of Engineering Education Entrance Practice 2015, Module 2, Section 1, Problem A: "Image Division".
 
 ![Original Image](sample/sample.bmp)
 
