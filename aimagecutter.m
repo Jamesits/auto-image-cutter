@@ -16,7 +16,7 @@ output_filename_format = [image_path, '.cut%03d.bmp'];
 % some part of character. Usually more extra width is needed on the right
 % side.
 left_bleed = 8;
-right_bleed = 10;
+right_bleed = 12;
 
 % Value from 0 to 1: a bigger offset will darken binarized image. Typically
 % a bigger value makes the image looking better, but will bring bigger
