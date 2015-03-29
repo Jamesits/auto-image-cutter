@@ -1,4 +1,5 @@
 # Auto Image Cutter
+
 A matlab program to cut text in columns from image.
 
 ## Example
