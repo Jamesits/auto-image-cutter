@@ -1,18 +1,18 @@
-% Automatic image cutter 
+% Automatic image cutter
 % https://github.com/Jamesits/auto-image-cutter
-% 
+%
 % Copyright (C) 2015 James Swineson
 %
 % This program is free software; you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
 % the Free Software Foundation; either version 2 of the License, or
 % (at your option) any later version.
-% 
+%
 % This program is distributed in the hope that it will be useful,
 % but WITHOUT ANY WARRANTY; without even the implied warranty of
 % MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 % GNU General Public License for more details.
-% 
+%
 % You should have received a copy of the GNU General Public License along
 % with this program; if not, write to the Free Software Foundation, Inc.,
 % 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
@@ -50,7 +50,7 @@ run_length_encoding_minimal_distance = 10;
 
 % ========================= Program ========================
 
-disp('Automatic image cutter version 1.0, Copyright (C) 2015 James Swineson');
+disp('Automatic image cutter version 1.0.2, Copyright (C) 2015 James Swineson');
 disp('Automatic image cutter comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.');
 disp('This is free software, and you are welcome to redistribute it under certain conditions.');
 
@@ -71,7 +71,7 @@ phistogram = zeros(1, 128);
 for col = 1 : size(source, 2)
   for row = 1 : size(source, 1)
     lightness = int8(sum(source(row, col)) / 3 + 1);
-    if (phistogram(1, lightness) < totalpixelnum / 8) 
+    if (phistogram(1, lightness) < totalpixelnum / 8)
         phistogram(1, lightness) = phistogram(1, lightness) + 1;
     end
   end
@@ -99,9 +99,9 @@ toc;
 % calculate average brightness
 tic;
 disp('[INFO]Detecting text areas...');
-colavg = sum(bwimage); 
+colavg = sum(bwimage);
 x = 1 : 1 : size(colavg, 2);
-guideline = zeros(size(colavg, 2)) + blank_column_lightness_threshold * max(colavg); 
+guideline = zeros(size(colavg, 2)) + blank_column_lightness_threshold * max(colavg);
 figure(4);
 plot(x, colavg, x, guideline);
 title('Colomn Average Brightness');
@@ -121,7 +121,7 @@ title('Text Area (Sketch)');
 
 run_length = 1;
 text_area_edge_position = {text_area(1)};
- 
+
 for i = 2 : size(text_area, 2) - 1
     if text_area(i) >= text_area(i-1) + run_length_encoding_minimal_distance
         text_area_edge_position = [text_area_edge_position text_area(i - 1) text_area(i)]; %#ok<AGROW>
