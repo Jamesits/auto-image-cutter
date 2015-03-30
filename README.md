@@ -128,7 +128,7 @@ Contact me at jamesswineson[#]gmail.com.
 
 ## References
 
-* [Run Length Encoding](http://ihoque.bol.ucla.edu/presentation.ppt)(MS PowerPoint 2003 Format)
+* [Run Length Encoding](http://ihoque.bol.ucla.edu/presentation.ppt) (MS PowerPoint 2003 Format)
 
 ## Thanks
 
