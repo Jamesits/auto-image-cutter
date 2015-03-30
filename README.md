@@ -35,6 +35,7 @@ Written and tested on Matlab R2015a.
     * Unit: pixel(s)
     * You can set left and right bleed individually.
     * Usually more extra width is needed on the right side.
+    * Too big value may cause overlap of neighbor slices.
     * Default value:
     ```Matlab
     left_bleed = 8;
