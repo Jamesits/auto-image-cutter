@@ -43,7 +43,7 @@ Written and tested on Matlab R2015a.
  * `bw_threshold_detect_offset`:
     A bigger value will darken binarization result.
     * Value from 0 to 1
-    * A bigger value makes the image looks better (strokes are more plump), but will bring bigger possibility of false positive result.
+    * A bigger value makes the image looking better (strokes more plump), but will bring bigger possibility of false positive result.
     * Default value:
     ```Matlab
     bw_threshold_detect_offset = 0.61803398874989484820458683436;
