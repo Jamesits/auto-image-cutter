@@ -18,6 +18,7 @@ Written and tested on Matlab R2015a.
  * `image_path`:
     Source image path.
     * Should be a valid image file which format is supported by Matlab.
+
  * `output_filename_format`:
     Output image filename format.
     * Should be a valid format string.
