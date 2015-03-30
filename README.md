@@ -1,4 +1,4 @@
-# Auto Image Cutter
+# Automatic image cutter 
 
 A Matlab program to cut text into columns from an image.
 
