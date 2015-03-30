@@ -6,7 +6,7 @@
 % ======================== Settings ========================
 
 % Source image path. Should be valid image file.
-image_path = 'sample.bmp';
+image_path = 'sample/sample.bmp';
 
 % Output image filename format. Should be vaild format string.
 % CAUTION: any file with the same name will be OVERWRITTEN without warning!
@@ -124,6 +124,7 @@ for i = 1 : 2 : size(text_area_edge_position, 2)
     disp([char(9), filename]);
     imwrite(imcrop(bwimage, [text_area_edge_position(i) - left_bleed, 0, text_area_edge_position(i + 1) - text_area_edge_position(i) + left_bleed + right_bleed , size(bwimage, 1)]), filename);
 end
+toc;
 
 disp('[INFO]Program finished.');
 % ======================= Program End ======================
