@@ -1,8 +1,10 @@
-# Automatic image cutter 
+# Automatic image cutter
 
 A Matlab program to cut text into columns from an image.
 
 Written and tested on Matlab R2015a.
+
+[Download Code](releases)
 
 [Fork me on Github](https://github.com/Jamesits/auto-image-cutter)
 
