@@ -119,13 +119,11 @@ title('Text Area (Sketch)');
 % perform run length encoding
 % reference: ihoque.bol.ucla.edu/presentation.ppt
 
-run_length = 1;
 text_area_edge_position = {text_area(1)};
 
 for i = 2 : size(text_area, 2) - 1
     if text_area(i) >= text_area(i-1) + run_length_encoding_minimal_distance
         text_area_edge_position = [text_area_edge_position text_area(i - 1) text_area(i)]; %#ok<AGROW>
-        run_length = 1;
     end
 end
 text_area_edge_position = [text_area_edge_position text_area(size(text_area, 2))]; % append last value
