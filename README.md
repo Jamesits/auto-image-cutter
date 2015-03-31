@@ -2,7 +2,7 @@
 
 A Matlab program to cut text into columns from an image.
 
-Written and tested on Matlab R2015a. **No backward compatibility has been taken into consideration. No guarantee it will run on any old version of Matlab. Go hell those who use pirated old Matlab 7.0 and tell me this program can't run on their machines.**
+Written and tested on Matlab R2015a. **No backward compatibility has been taken into consideration. No guarantee it will run on any old version of Matlab. Those who use pirated old Matlab 7.0 and tell me this program can't run on their machines are not welcomed here.**
 
 [Download Code](https://github.com/Jamesits/auto-image-cutter/releases)
 
@@ -14,6 +14,14 @@ Written and tested on Matlab R2015a. **No backward compatibility has been taken 
  * Automatically detect binalization threshold based on lightness histogram
  * Draw figures to demonstrate every step of operation
  * Detailed comments and document
+
+## Prerequisites
+
+Here are the software (and their versions) of my development environment.
+
+ * Matlab R2015a (8.5)
+ * Signal Processing Toolbox 7.0
+ * Image Processing Toolbox 9.2
 
 ## Arguments
 
