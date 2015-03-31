@@ -66,6 +66,13 @@ Written and tested on Matlab R2015a.
     ```Matlab
     run_length_encoding_minimal_distance = 10;
     ```
+ * `reverse_image`:
+    If set to true, color of the result image will be reversed (i.e. black -> white, white -> black).
+    * Value: true or false
+    * Default value:
+    ```Matlab
+    reverse_image = false;
+    ```
 
 ## Example
 
@@ -85,6 +92,7 @@ right_bleed = 12;
 bw_threshold_detect_offset = 0.61803398874989484820458683436;
 blank_column_lightness_threshold = 0.985211;
 run_length_encoding_minimal_distance = 10;
+reverse_image = false;
 ```
 
 ### Result

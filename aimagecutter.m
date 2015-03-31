@@ -46,6 +46,9 @@ blank_column_lightness_threshold = 0.985211;
 % The minimal distance of two character blocks which will not be treated as
 % one block for being too near.
 run_length_encoding_minimal_distance = 10;
+
+% Reverse B/W image
+reverse_image = false;
 % ====================== Settings End ======================
 
 % ========================= Program ========================
@@ -137,6 +140,11 @@ toc;
 % cut and save image
 tic;
 disp('[INFO]Saving images...');
+
+if reverse_image == true
+    bwimage = 1 - bwimage;
+end
+
 for i = 1 : 2 : size(text_area_edge_position, 2)
     filename = num2str((i + 1) ./ 2, output_filename_format);
     disp([char(9), filename]);
