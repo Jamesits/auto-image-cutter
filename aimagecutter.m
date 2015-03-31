@@ -52,7 +52,7 @@ reverse_image = false;
 
 % ========================= Program ========================
 
-disp('Automatic image cutter version 1.0.3, Copyright (C) 2015 James Swineson');
+disp('Automatic image cutter version 1.0.4, Copyright (C) 2015 James Swineson');
 disp('Automatic image cutter comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.');
 disp('This is free software, and you are welcome to redistribute it under certain conditions.');
 
