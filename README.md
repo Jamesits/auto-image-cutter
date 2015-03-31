@@ -2,7 +2,7 @@
 
 A Matlab program to cut text into columns from an image.
 
-Written and tested on Matlab R2015a. **No backward compatibility has been taken into consideration. No guarantee it will run on any old version of Matlab. <!--F**k those who use pirated old Matlab 7.0 and tell me this program can't run on their machines.-->**
+Written and tested on Matlab R2015a. **No backward compatibility has been taken into consideration. No guarantee it will run on any old version of Matlab. Go hell those who use pirated old Matlab 7.0 and tell me this program can't run on their machines.**
 
 [Download Code](https://github.com/Jamesits/auto-image-cutter/releases)
 
